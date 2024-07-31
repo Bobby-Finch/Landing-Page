@@ -39,4 +39,16 @@ ul {
   display: flex;
 }
 
+.first {
+  display: flex;
+  padding: 5rem 10rem;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+}
 
