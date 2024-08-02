@@ -6,13 +6,22 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .header {
-  display: flex;
   background-color: #1F2937;
+}
+
+.header-content {
+  display: flex;
   align-items: center;
-  margin: 0;
-  padding: 0 10rem;
   justify-content: space-between;
+  max-width: 100rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 32px;
 }
 
 a {
@@ -41,11 +50,17 @@ ul {
   display: flex;
 }
 
-.first {
-  display: flex;
-  padding: 5rem 10rem;
-  justify-content: space-between;
+.hero {
   background-color: #1F2937;
+}
+
+.hero-content {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+  max-width: 100rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 h1 {
@@ -76,24 +91,30 @@ h1 {
   padding: 0 0 1rem 0;
 }
 
-.second {
+.cards {
   background-color: white;
+}
+
+.cards-content {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  padding: 0 10rem 5rem 10rem;
+  padding: 32px;
+  margin: 0 auto;
+  max-width: 80rem;
+  width: 100%;
 }
 
-h2 {
+.cards-heading {
   align-items: center;
   font-size: 2.5rem;
-  padding: 1rem;
+  padding-bottom: 32px;
 }
 
 .container {
   display: flex;
-  gap: 2rem;
-  
+  gap: 64px;
+  width: 100%;
 }
 
 .card {
@@ -104,7 +125,6 @@ h2 {
   flex: 1;
   flex-wrap: wrap;
   width: 200px;
-  padding: 0 3rem;
 }
 
 .card > p {
@@ -120,31 +140,44 @@ h2 {
   height: 200px;
 }
 
-.third {
+.quotes {
   background-color: #e5e7eb;
+}
+
+.quotes-content {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  padding: 5rem 10rem 5rem 10rem;
+  padding: 128px 0;
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .quote {
   font-size: 2.25rem;
   color: #1F2937;
-  padding: 0 10rem;
+  width: 100%;
 }
 
 .quote > p {
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 
-.fourth {
+.call-to-action {
+  background-color: white;
+}
+
+.call-to-action-content {
   display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding: 5rem 10rem 5rem 10rem;
+  align-items: center;
+  padding: 128px 0;
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sign-up {
